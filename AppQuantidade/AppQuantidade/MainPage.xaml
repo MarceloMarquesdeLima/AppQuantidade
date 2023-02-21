@@ -4,7 +4,7 @@
              x:Class="AppQuantidade.MainPage">
 
     <StackLayout>
-        <Label Text="MQS - Gestão de Relacionamento!" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="MQS - Gestão de Relacionamento!" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" FontSize="Title" Padding="30,10,30,10"/>
     </StackLayout>
 
 </ContentPage>
