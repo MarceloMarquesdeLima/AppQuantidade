@@ -4,21 +4,7 @@
              x:Class="AppQuantidade.MainPage">
 
     <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="MQS - Gestão de Relacionamento!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-        <Label Text="MQS - Gestão Relacionamento" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Aplicativo de gerenciamento de relacionamento com o cliente e sua empresa!" FontSize="16" Padding="30,0,30,0"/>
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Leia mais..."/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
+        <Label Text="MQS - Gestão de Relacionamento!" FontSize="Title" Padding="30,10,30,10"/>
     </StackLayout>
 
 </ContentPage>
