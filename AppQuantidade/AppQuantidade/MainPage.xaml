@@ -3,12 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppQuantidade.MainPage">
 
-    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-        <Label Text="Quantidade" FontSize="40" HorizontalTextAlignment="Center" />
-        <Label Text="1" FontSize="48" TextColor="Red" HorizontalTextAlignment="Center" />
-        <StackLayout Orientation="Horizontal">
-            <Button Text="+" BorderWidth="1" BorderColor="#707070" BackgroundColor="White" WidthRequest="90" HeightRequest="90" FontSize="48" />
-            <Button Text="-" BorderWidth="1" BorderColor="#707070" BackgroundColor="White" WidthRequest="90" HeightRequest="90" FontSize="48" />
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="50"  >
+        <Label Text="Quantidade" FontSize="40" HorizontalTextAlignment="Center"  />
+        <Label x:Name="lblQuantidade" Text="0" FontSize="48" TextColor="Red" HorizontalTextAlignment="Center" />
+        <StackLayout Orientation="Horizontal" Spacing="40"  >
+            <Button Clicked="Aumentar" Text="+" BorderWidth="1" BorderColor="#707070" BackgroundColor="White" WidthRequest="90" HeightRequest="90" FontSize="48" />
+            <Button Clicked="Diminuir" Text="-" BorderWidth="1" BorderColor="#707070" BackgroundColor="White" WidthRequest="90" HeightRequest="90" FontSize="48" />
         </StackLayout>
         
     </StackLayout>
