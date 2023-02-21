@@ -3,11 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppQuantidade.MainPage">
 
-    <StackLayout>
-        <Label Text="Quantidade" />
-        <Label Text="1" />
-        <Button Text="+" />
-        <Button Text="-" />
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="Quantidade" FontSize="40" HorizontalTextAlignment="Center" />
+        <Label Text="1" FontSize="48" TextColor="Red" HorizontalTextAlignment="Center" />
+        <StackLayout Orientation="Horizontal">
+            <Button Text="+" BorderWidth="1" BorderColor="#707070" BackgroundColor="White" WidthRequest="90" HeightRequest="90" FontSize="48" />
+            <Button Text="-" BorderWidth="1" BorderColor="#707070" BackgroundColor="White" WidthRequest="90" HeightRequest="90" FontSize="48" />
+        </StackLayout>
+        
     </StackLayout>
 
 </ContentPage>
